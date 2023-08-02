@@ -157,7 +157,7 @@ p {
 #footContainer{
 
     background-color: var(--bg-body-color);
-    z-index: 1;
+    z-index: 10000000000000;
     position: absolute;
     transition: .3s;
     width: 100%;
@@ -288,11 +288,6 @@ ul {
     background-color: transparent;
 }
 
-#firstLandContent{
-    
-    z-index: 1;
-}
-
 .firstLandContent{
     background-color: transparent;
     margin: 230px auto 0 auto;
@@ -326,7 +321,6 @@ ul {
     overflow: hidden;
     background-color: transparent;
     top: 0;
-    z-index: 2;
 }
 
 .cover {
@@ -429,7 +423,6 @@ p {
 #moreTitleContent{
     text-align: left;
     position: absolute;
-    z-index: 10000;
 }
 
 #moretitle{
